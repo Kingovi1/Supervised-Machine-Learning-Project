@@ -38,7 +38,7 @@ A joint plot was created to explore the relationship between FICO scores and int
 Lastly, an lmplot was constructed to investigate the relationship between FICO scores and interest rates, colored by credit policy. This visualization enabled us to discern any differences in borrowing behavior between borrowers who repaid their loans and those who did not, based on credit policy and FICO scores.
 By employing both Matplotlib and Seaborn for data visualization and exploration, we gained valuable insights into borrower behavior and identified potential patterns that may influence loan repayment outcomes. These insights will inform the development of predictive models to aid lenders in decision-making processes.
 
-# MODELLIING APROACH 
+# MODELING APPROACH 
 For modeling, we considered Decision Tree Classifier and RandomForestClassifier due to their effectiveness in classification tasks. These models were chosen as they can be fine-tuned for improved accuracy.
 
 Evaluation Metrics:
