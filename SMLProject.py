@@ -111,7 +111,7 @@ with st.form('Enter basic details Below'):
     st.title('Loan Prediction')
 
     # Input fields
-    credit_policy = st.number_input('Toll Amount', min_value=data['credit.policy'].min(),
+    credit_policy = st.number_input('Credit Policy', min_value=data['credit.policy'].min(),
                                     max_value=data['credit.policy'].max())
     purpose = st.selectbox('Select a Purpose', data['purpose'].unique())
     interest_rate = st.number_input('Interest rate', min_value=data['int.rate'].min(), max_value=data['int.rate'].max())
